@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners and subtle border -->
+  <rect width="64" height="64" rx="16" fill="#0b1329" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.4" />
+  <!-- Code brackets & slash - crisp, bold, highly visible in browser tab -->
+  <path d="M21 21 L11 32 L21 43" fill="none" stroke="url(#brandGrad)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M43 21 L53 32 L43 43" fill="none" stroke="url(#brandGrad)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="36" y1="18" x2="28" y2="46" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+</svg>
